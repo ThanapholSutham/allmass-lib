@@ -2,7 +2,7 @@
 $mainpeotocal = (!empty($_SERVER['HTTPS'])&&$_SERVER['HTTPS']!=='off')?'https://':'http://';
 define ("_APP_KEY_",	'QwEaSdZxC0EDU');// remark
 define ("_PROJECTNAME_",	'allmass');
-define ("_DATABASE_KEY_",	'==AdsJzYsJ1VkxHdsJzYsJ1VkxXPjFzYopFRUJjTH5Ef0xmMjxmUXRGf0xmMjxmUXRGf90zdNpXQq5EfzljMZhGeHFmdOhEZ81TPRV1MWVVWUJVbXRjTF1kRSVlV');// remark
+define ("_DATABASE_KEY_",	'==AdsJzYsJ1VkxHdsJzYsJ1VkxXPjFzYopFRUJjTH5Ef0xmMjxmUXRGf0xmMjxmUXRGf90zdNpXQq5EfzljMZhGeHFmdOhEZ81TPRV1MWVVWUJVbXRjTF1kRSVlV');
 define ("_HTTP_PATH_", "/"._PROJECTNAME_);
 define ("_SYSTEM_ROOTPATH_","/"._PROJECTNAME_);
 define ("_SYSTEM_DIRROOTPATH_", $_SERVER['DOCUMENT_ROOT']. "/"._PROJECTNAME_);//$_SERVER['DOCUMENT_ROOT'].
