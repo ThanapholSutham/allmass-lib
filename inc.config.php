@@ -18,6 +18,7 @@ include(_SYSTEM_DIRROOTPATH_."/lib/inc.configmail.php");
 include(_SYSTEM_DIRROOTPATH_."/lib/inc.configother.php");
 include(_SYSTEM_DIRROOTPATH_."/lib/function.php");
 
+$var = 1;
 //config
 //config 2
 
