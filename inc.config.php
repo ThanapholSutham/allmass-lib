@@ -5,7 +5,7 @@ define ("_PROJECTNAME_",	'allmass');
 define ("_DATABASE_KEY_",	'==AdsJzYsJ1VkxHdsJzYsJ1VkxXPjFzYopFRUJjTH5Ef0xmMjxmUXRGf0xmMjxmUXRGf90zdNpXQq5EfzljMZhGeHFmdOhEZ81TPRV1MWVVWUJVbXRjTF1kRSVlV');
 define ("_HTTP_PATH_", "/"._PROJECTNAME_);
 define ("_SYSTEM_ROOTPATH_","/"._PROJECTNAME_);
-define ("_SYSTEM_DIRROOTPATH_", $_SERVER['DOCUMENT_ROOT']. "/"._PROJECTNAME_);//$_SERVER['DOCUMENT_ROOT'].
+define ("_SYSTEM_DIRROOTPATH_", $_SERVER['DOCUMENT_ROOT']. "/"._PROJECTNAME_);
 define ("_HTTP_PATH_UPLOAD_",$mainpeotocal.$_SERVER["SERVER_NAME"].'/'._PROJECTNAME_."/upload");
 include(_SYSTEM_DIRROOTPATH_."/lib/inc.session.php");
 include(_SYSTEM_DIRROOTPATH_."/lib/inc.functiondecode.php");
@@ -19,4 +19,6 @@ include(_SYSTEM_DIRROOTPATH_."/lib/inc.configother.php");
 include(_SYSTEM_DIRROOTPATH_."/lib/function.php");
 //config
 //config 2
+
+//test
 ?>
